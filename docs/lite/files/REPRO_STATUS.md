@@ -70,16 +70,28 @@ These tables report the visible regression output needed to address the annotati
 
 ## External Review Status
 
-GPT Pro R4 returned `REVISE`, score `9/10`. Pro confirmed the package is
+GPT Pro R4 returned `REVISE`, score `9/10`. Pro confirmed that the package is
 recompute-first and accepted the arithmetic and data-flow evidence, but found
 one deterministic-packaging defect: JupyterLite API metadata for `.log` files
-can change across environments unless `.log` is explicitly mapped to
+could change across environments unless `.log` was explicitly mapped to
 `text/plain` in `code/sync_jupyterlite_files.py`.
 
-The MIME mapping has now been implemented locally. The full public runner passes
-from the package root and from a freshly extracted public ZIP. JupyterLite API
-metadata reports the notebook step logs as `text/plain`, and the full runner is
-hash-stable across a repeated run.
+The MIME mapping was implemented and targeted GPT Pro R5 returned `PASS`, score
+`10/10`, with no mandatory fixes. The full public runner passes from the
+package root and from a freshly extracted public ZIP. JupyterLite API metadata
+reports the notebook step logs as `text/plain`, and the full runner is
+hash-stable across repeated runs.
 
-The package is still not final-release closed until targeted GPT Pro R5 confirms
-this repair without mandatory fixes.
+## Public Delivery Status
+
+The package is publicly delivered at:
+
+```text
+https://dkacz.github.io/self-defeating-public-investment-cuts-full-repro-20260521/lite/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_full_repro_20260521.ipynb
+```
+
+GitHub Pages serves the repository
+`dkacz/self-defeating-public-investment-cuts-full-repro-20260521` from
+`main:/docs`. Public URL checks returned HTTP 200 for the landing page and the
+browser-executable notebook. Browser QA passed in a fresh context and in a
+persistent profile after preloading the older 2026-05-14 notebook URL.

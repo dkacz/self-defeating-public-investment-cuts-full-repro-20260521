@@ -36,7 +36,16 @@ Executable source code and machine-validation internals may retain compact varia
 
 ## Browser freshness check
 
-The browser-executable notebook was opened through a local JupyterLite build in both a fresh browser context and a persistent browser profile. Both checks opened the new notebook filename, and the old public notebook filename returned 404 from the payload. The local non-browser notebook execution also passed end to end through `code/execute_public_notebook.py`.
+The browser-executable notebook was first opened through a local JupyterLite build in both a fresh browser context and a persistent browser profile. Both checks opened the new notebook filename, and the old public notebook filename returned 404 from the payload. The local non-browser notebook execution also passed end to end through `code/execute_public_notebook.py`.
+
+After publication, the GitHub Pages landing page and direct notebook URL both returned HTTP 200. A second browser QA pass opened the public URL in a fresh context and in a persistent profile after preloading the older 2026-05-14 notebook URL. Both checks saw `self_defeating_public_investment_cuts_full_repro_20260521.ipynb` and the new JupyterLite API did not list the old notebook filename.
+
+## Public delivery
+
+- Repository: `https://github.com/dkacz/self-defeating-public-investment-cuts-full-repro-20260521`
+- Pages URL: `https://dkacz.github.io/self-defeating-public-investment-cuts-full-repro-20260521/`
+- Notebook URL: `https://dkacz.github.io/self-defeating-public-investment-cuts-full-repro-20260521/lite/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_full_repro_20260521.ipynb`
+- Delivery QA: `delivery/PUBLIC_URL_BROWSER_QA_20260521.md`
 
 ## Result Impact
 
