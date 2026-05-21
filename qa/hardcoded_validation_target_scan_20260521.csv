@@ -1,0 +1,2 @@
+check,status,path,line,detail
+no_inline_validation_target_antipatterns,PASS,.,,no forbidden validation-target or stale-public-path patterns found

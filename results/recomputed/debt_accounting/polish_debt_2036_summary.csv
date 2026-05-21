@@ -1,0 +1,5 @@
+spec_id,features,scenario,scenario_sign,dsa_margin_vs_baseline_pp,direct_DY_LP_margin_pp,Y_shortfall_pct,direct_discretionary_PB_level_pp
+household_net_financial_worth,liq,three_1pp_cut_2028_2030,cut,6.503118289,4.309319506,5.560901507,2.124036921
+household_net_financial_worth,liq,three_1pp_expansion_2028_2030,expansion,-6.097917796,-4.309319506,-5.560901507,-2.124036921
+investment_import_content,trade,three_1pp_cut_2028_2030,cut,4.890650649,1.729581960,4.631255009,1.894011588
+investment_import_content,trade,three_1pp_expansion_2028_2030,expansion,-4.636256615,-1.729581960,-4.631255009,-1.894011588

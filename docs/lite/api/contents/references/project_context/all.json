@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/x-python",
+      "name": "ciaffi_canonical_estimation_v3_short_rate.py",
+      "path": "references/project_context/ciaffi_canonical_estimation_v3_short_rate.py",
+      "size": 35469,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "project_context",
+  "path": "references/project_context",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

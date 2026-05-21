@@ -1,0 +1,10 @@
+check,status,detail
+source_rebuilt_model_input_matches_frozen:trade_raw,PASS,max_abs_diff=0.000e+00; same_missing=True
+source_rebuilt_model_input_matches_frozen:trade_z,PASS,max_abs_diff=4.995e-10; same_missing=True
+source_rebuilt_model_input_matches_frozen:trade_z_lag1,PASS,max_abs_diff=4.995e-10; same_missing=True
+source_rebuilt_model_input_matches_frozen:liq_raw,PASS,max_abs_diff=4.996e-10; same_missing=True
+source_rebuilt_model_input_matches_frozen:liq_z,PASS,max_abs_diff=4.999e-10; same_missing=True
+source_rebuilt_model_input_matches_frozen:liq_z_lag1,PASS,max_abs_diff=4.999e-10; same_missing=True
+source_rebuilt_model_input_matches_frozen:log_gdp_pc_raw,PASS,max_abs_diff=4.990e-10; same_missing=True
+source_rebuilt_model_input_matches_frozen:log_gdp_pc_z,PASS,max_abs_diff=4.993e-10; same_missing=True
+source_rebuilt_model_input_matches_frozen:log_gdp_pc_z_lag1,PASS,max_abs_diff=4.993e-10; same_missing=True

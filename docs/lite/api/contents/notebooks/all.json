@@ -1,0 +1,29 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "application/x-ipynb+json",
+      "name": "self_defeating_public_investment_cuts_full_repro_20260521.ipynb",
+      "path": "notebooks/self_defeating_public_investment_cuts_full_repro_20260521.ipynb",
+      "size": 99988,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "notebooks",
+  "path": "notebooks",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

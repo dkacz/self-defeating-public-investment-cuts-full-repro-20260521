@@ -1,0 +1,4 @@
+raw_column,z_column,sample_start,sample_end,mean,sd,nobs
+log_gdp_pc_raw,log_gdp_pc_z,2004,2022,10.210231036,0.383667094,513
+trade_raw,trade_z,2004,2022,0.429329298,0.100845873,513
+liq_raw,liq_z,2004,2022,-1.112255884,0.591976862,513

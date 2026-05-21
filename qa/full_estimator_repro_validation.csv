@@ -1,0 +1,17 @@
+check,status,detail
+feature_screen:feature_robustness_summary,PASS,max_numeric_diff=3.000e-09; bad_cols=
+feature_screen:output_interaction_wald_h8,PASS,max_numeric_diff=3.000e-09; bad_cols=
+feature_screen:output_interaction_multiplicity_h8,PASS,max_numeric_diff=3.000e-09; bad_cols=
+feature_screen:kernel_paths_all_horizons,PASS,max_numeric_diff=8.900e-08; bad_cols=
+feature_screen:kernel_h8,PASS,max_numeric_diff=8.900e-08; bad_cols=
+feature_screen:bootstrap_kernel_summary,PASS,max_numeric_diff=3.000e-09; bad_cols=
+feature_screen:loo_kernel_summary,PASS,max_numeric_diff=1.000e-09; bad_cols=
+feature_screen:time_block_kernel_summary,PASS,max_numeric_diff=3.000e-09; bad_cols=
+polish_output:paths,PASS,max_numeric_diff=2.400e-08; bad_cols=
+polish_output:h8_summary,PASS,max_numeric_diff=2.000e-09; bad_cols=
+debt:direct_dy,PASS,max_numeric_diff=2.000e-09; bad_cols=
+debt:program_paths,PASS,max_numeric_diff=5.000e-09; bad_cols=
+debt:dsa_paths,PASS,max_numeric_diff=8.000e-09; bad_cols=
+debt:summary_2036,PASS,max_numeric_diff=7.000e-09; bad_cols=
+eu27_debt:endpoint_2036,PASS,max_numeric_diff=2.000e-09; bad_cols=
+eu27_debt:annual_decomposition,PASS,max_numeric_diff=0.000e+00; bad_cols=

@@ -1,0 +1,9 @@
+SKIP browser-only cell 3
+PASS cell 4
+PASS cell 6
+PASS cell 8
+PASS cell 10
+PASS cell 12
+PASS cell 14
+PASS cell 16
+PASS cell 18

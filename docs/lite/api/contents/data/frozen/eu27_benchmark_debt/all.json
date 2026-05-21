@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "eu27_benchmark_annual_debt_decomposition.csv",
+      "path": "data/frozen/eu27_benchmark_debt/eu27_benchmark_annual_debt_decomposition.csv",
+      "size": 2115,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "eu27_benchmark_debt_2036.csv",
+      "path": "data/frozen/eu27_benchmark_debt/eu27_benchmark_debt_2036.csv",
+      "size": 307,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/markdown",
+      "name": "README.md",
+      "path": "data/frozen/eu27_benchmark_debt/README.md",
+      "size": 869,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "eu27_benchmark_debt",
+  "path": "data/frozen/eu27_benchmark_debt",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

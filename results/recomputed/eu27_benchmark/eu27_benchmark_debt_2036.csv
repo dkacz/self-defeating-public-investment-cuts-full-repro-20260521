@@ -1,0 +1,2 @@
+empirical_path,expansion_institutional_debt_equation,expansion_direct_debt_to_gdp_lp_path,cut_institutional_debt_equation,cut_direct_debt_to_gdp_lp_path,source_artifact
+EU27 panel benchmark,-6.534956104,-3.669125853,6.986932839,3.669125853,recomputed from frozen model inputs by code/run_full_estimator_repro.py

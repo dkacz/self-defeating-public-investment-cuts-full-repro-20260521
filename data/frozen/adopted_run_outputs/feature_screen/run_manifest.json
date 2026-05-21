@@ -1,0 +1,67 @@
+{
+  "blas_thread_env": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "blas_thread_policy": "script re-execs Python with OPENBLAS_NUM_THREADS=1, OMP_NUM_THREADS=1 and MKL_NUM_THREADS=1 before importing NumPy",
+  "bootstrap_draws": 19,
+  "bootstrap_seed": 20260426,
+  "created_utc": "2026-05-14T09:03:17.068557+00:00",
+  "excluded_as_gate": [
+    "output_only_bic",
+    "output_only_fit_ranking",
+    "later_stage_accounting_margin",
+    "later_stage_ratio_margin",
+    "later_stage_sign",
+    "later_stage_size",
+    "later_stage_direction_flag",
+    "later_stage_ratio_bic",
+    "joint_bic",
+    "kernel_primary_sign",
+    "positive_kernel_stability"
+  ],
+  "features": [
+    "trade",
+    "debt",
+    "liq",
+    "log_gdp_pc"
+  ],
+  "git_head": "fedd44b3bc2245e53954041862c907c6e643696b",
+  "git_status_note": "not embedded; source_manifest.csv carries public-archive file hashes for standalone review",
+  "platform": "macOS-26.1-arm64-arm-64bit-Mach-O",
+  "python": "3.14.2 (main, Dec  5 2025, 16:49:16) [Clang 17.0.0 (clang-1700.6.3.2)]",
+  "spec_version": "mozdzen_tiva2022_gfcf_realppp_networth_feature_screen_20260513",
+  "stage_order": [
+    "enumerate_all_15_nonempty_feature_subsets",
+    "estimate_output_and_spending_kernels_for_all_specs",
+    "evaluate_robustness_with_first_stage_diagnostics_only"
+  ],
+  "threadpoolctl_info": [
+    {
+      "architecture": "neoversen1",
+      "internal_api": "openblas",
+      "library_file": "libopenblasp-r0.3.31.dylib",
+      "num_threads": 1,
+      "prefix": "libopenblas",
+      "threading_layer": "openmp",
+      "user_api": "blas",
+      "version": "0.3.31"
+    },
+    {
+      "internal_api": "openmp",
+      "library_file": "libgomp.1.dylib",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "user_api": "openmp",
+      "version": null
+    }
+  ],
+  "thresholds": {
+    "condition_max": 100.0,
+    "corr_max": 0.85,
+    "max_abs_z_max": 2.0,
+    "output_interaction_p_max": 0.05,
+    "support_p_min": 0.05
+  }
+}

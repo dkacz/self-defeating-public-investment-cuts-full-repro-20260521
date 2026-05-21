@@ -1,0 +1,40 @@
+check,returncode,passed
+Full estimator reproduction,0,True
+Public tables and figures rebuilt,0,True
+Feature-screen validation - state-variable screen summary,0,True
+Feature-screen validation - output-interaction test at the eighth horizon,0,True
+Feature-screen validation - multiplicity diagnostics for output interaction,0,True
+Feature-screen validation - response paths for all candidate state-variable subsets,0,True
+Feature-screen validation - eighth-horizon response summary,0,True
+Feature-screen validation - bootstrap finite-run summary,0,True
+Feature-screen validation - leave-one-country finite-run summary,0,True
+Feature-screen validation - time-block finite-run summary,0,True
+Polish response validation - Polish response paths,0,True
+Polish response validation - Polish eighth-horizon response summary,0,True
+Polish debt validation - direct debt-to-GDP response path,0,True
+Polish debt validation - three-year programme action paths,0,True
+Polish debt validation - institutional debt-equation paths,0,True
+Polish debt validation - 2036 debt endpoint summary,0,True
+EU27 benchmark debt validation - 2036 debt endpoint validation,0,True
+EU27 benchmark debt validation - annual debt-accounting decomposition,0,True
+"Source rebuild matches frozen target - investment import content, unstandardised source value",0,True
+"Source rebuild matches frozen target - investment import content, standardised value",0,True
+"Source rebuild matches frozen target - investment import content, one-year lag",0,True
+"Source rebuild matches frozen target - household net financial worth, unstandardised source value",0,True
+"Source rebuild matches frozen target - household net financial worth, standardised value",0,True
+"Source rebuild matches frozen target - household net financial worth, one-year lag",0,True
+"Source rebuild matches frozen target - real PPP income, unstandardised source value",0,True
+"Source rebuild matches frozen target - real PPP income, standardised value",0,True
+"Source rebuild matches frozen target - real PPP income, one-year lag",0,True
+source-code table row count,0,True
+state-variable table row count,0,True
+state-variable screen row count,0,True
+retained state-variable subset count,0,True
+debt endpoint table row count,0,True
+debt table includes the EU27 benchmark,0,True
+debt decomposition row count,0,True
+EU27 annual debt-decomposition row count,0,True
+EU27 annual debt-decomposition actions,0,True
+response-path figure includes the EU27 benchmark,0,True
+estimation-output tables are present,0,True
+public tables are built from recomputed outputs,0,True

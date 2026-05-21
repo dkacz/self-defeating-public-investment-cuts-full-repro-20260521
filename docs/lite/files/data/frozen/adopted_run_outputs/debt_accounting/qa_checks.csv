@@ -1,0 +1,3 @@
+check,status,detail
+debt_rows_present,PASS,rows=52
+baseline_reproduction_within_tolerance,PASS,max_abs_diff=1.472e-02; tolerance_pp=0.020

@@ -1,0 +1,2 @@
+public tables and figures: PASS
+Verbose estimator stdout is suppressed in the public QA log. The reproducible outputs are written to results/recomputed/, tables/ and qa/*.csv. Re-run the notebook locally to reproduce the full computation.

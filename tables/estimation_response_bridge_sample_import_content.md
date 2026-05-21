@@ -1,0 +1,11 @@
+| Path                      | Horizon   | Observations   | Countries   | Years     |
+|:--------------------------|:----------|:---------------|:------------|:----------|
+| Investment import content | 0         | 531            | 27          | 2004-2023 |
+| Investment import content | 1         | 531            | 27          | 2004-2023 |
+| Investment import content | 2         | 506            | 27          | 2004-2022 |
+| Investment import content | 3         | 481            | 27          | 2004-2021 |
+| Investment import content | 4         | 456            | 27          | 2004-2020 |
+| Investment import content | 5         | 431            | 27          | 2004-2019 |
+| Investment import content | 6         | 405            | 27          | 2004-2018 |
+| Investment import content | 7         | 378            | 27          | 2004-2017 |
+| Investment import content | 8         | 351            | 27          | 2004-2016 |

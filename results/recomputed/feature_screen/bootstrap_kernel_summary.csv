@@ -1,0 +1,16 @@
+spec_id,features,boot_ok_count,boot_all_finite_ok,K_Y_h8_p05,K_Y_h8_p50,K_Y_h8_p95,K_G_h8_p05,K_G_h8_p50,K_G_h8_p95
+investment_import_content,trade,19,True,1.187437542,2.120578925,2.908714953,0.561046927,0.697777769,0.830038072
+public_debt,debt,19,True,0.835459928,1.339674865,2.211324187,0.617989215,0.742810073,0.857326056
+household_net_financial_worth,liq,19,True,1.568341596,2.255069130,2.918474766,0.604165046,0.726214683,0.881965517
+real_ppp_income,log_gdp_pc,19,True,0.227373487,0.902720597,1.378537208,0.582402798,0.678834730,0.766736509
+investment_import_content__public_debt,trade+debt,19,True,0.653162357,1.328716998,1.843111824,0.598400233,0.656235086,0.718655069
+investment_import_content__household_net_financial_worth,trade+liq,19,True,1.183699447,1.873922769,3.298618101,0.458279438,0.680852469,0.872076844
+investment_import_content__real_ppp_income,trade+log_gdp_pc,19,True,0.082117068,0.577878227,1.456930664,0.531516582,0.617002117,0.674694574
+public_debt__household_net_financial_worth,debt+liq,19,True,0.725737373,1.634241170,2.504611255,0.582063488,0.660849820,0.786351777
+public_debt__real_ppp_income,debt+log_gdp_pc,19,True,0.050410953,0.583637639,1.656403593,0.614976260,0.761713155,0.847801820
+household_net_financial_worth__real_ppp_income,liq+log_gdp_pc,19,True,-0.571944448,0.126031620,1.374381977,0.467761487,0.637813948,0.807534149
+investment_import_content__public_debt__household_net_financial_worth,trade+debt+liq,19,True,0.539182963,1.029193388,1.987504173,0.584399633,0.665865782,0.779076795
+investment_import_content__public_debt__real_ppp_income,trade+debt+log_gdp_pc,19,True,-0.236283457,0.621754430,1.448189175,0.531530683,0.636562002,0.757717967
+investment_import_content__household_net_financial_worth__real_ppp_income,trade+liq+log_gdp_pc,19,True,-0.380638197,0.502313533,1.914528766,0.567821024,0.673964020,0.877300441
+public_debt__household_net_financial_worth__real_ppp_income,debt+liq+log_gdp_pc,19,True,-0.068929776,0.719383977,2.362248768,0.572706601,0.666674113,0.886234349
+investment_import_content__public_debt__household_net_financial_worth__real_ppp_income,trade+debt+liq+log_gdp_pc,19,True,-0.913236019,0.262186387,1.398923257,0.489179370,0.681392441,0.837158519

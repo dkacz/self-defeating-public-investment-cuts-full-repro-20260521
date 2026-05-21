@@ -1,0 +1,11 @@
+check,status,detail
+source_row_present:Reference baseline - Reference baseline specification,PASS,references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv
+source_row_present:Reference calculation - Current control calculation,PASS,references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv
+"source_row_present:Manuscript specification - Investment import content, real PPP income and household net financial worth",PASS,references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv
+source_row_present:Diagnostic check - Investment import content and household net financial worth with the earlier income construction,PASS,references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv
+source_row_present:Diagnostic check - Investment import content and real PPP income with the earlier credit-access proxy,PASS,references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv
+source_row_present:Diagnostic check - FIGARO-based import-content approximation with real PPP income and net financial worth,PASS,references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv
+source_row_present:Diagnostic check - Mechanical 2024 carry-forward with real PPP income and net financial worth,PASS,references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv
+source_row_present:Diagnostic check - Investment import content and real PPP income with cash plus transferable deposits,PASS,references/source_results/specification_grid_summary_from_cash_transferable_trial_20260514.csv
+adopted_specification_passes_two_specs,PASS,investment import content + household net financial worth
+adopted_specification_uses_official_tiva_realppp_networth,PASS,

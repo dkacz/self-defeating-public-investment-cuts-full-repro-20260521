@@ -1,0 +1,18 @@
+check,status,detail
+spec_count_is_15,PASS,spec_count=15
+all_nonempty_feature_subsets_present,PASS,expected 2^4 - 1 = 15 subsets of trade/debt/liq/log_gdp_pc
+gate_reasons_are_stage1_only,PASS,gate_reason uses only pre-specified robustness diagnostics
+robustness_summary_has_stage1_columns_only,PASS,feature_robustness_summary.csv contains only feature-selection diagnostics
+no_kernel_quantiles_in_robustness_summary,PASS,feature_robustness_summary.csv omits K_Y/K_G quantiles; they stay in separate stability appendices
+kernel_outputs_are_stage1_only,PASS,"all-spec kernel outputs contain only output, spending and feature-profile fields"
+no_kernel_sign_gate_columns,PASS,"gate excludes K_Y>0, K_G>0 and positive kernel-stability filters"
+no_positive_sign_summary_columns,PASS,robustness summary does not keep unused positive-sign diagnostics
+result_file_set_is_stage1_only,PASS,extra=[]; missing=[]
+output_only_bic_not_computed,PASS,No output-only BIC or fit ranking is part of gate logic.
+multiplicity_sensitivity_written,PASS,"raw p-values, Bonferroni p-values and Benjamini-Hochberg q-values are written as sensitivity diagnostics"
+support_excludes_poland_profile_target,PASS,target rows removed by country/profile-year filter; targets=POL_2022_target; min_distance_to_pol=0.000000000
+failed_gate_reasons_are_unambiguous,PASS,failed rows use failed_* reason labels
+dependency_manifest_present,PASS,requirements.txt documents Python dependencies
+bootstrap_draws_complete,PASS,min_boot_ok=19
+time_blocks_complete,PASS,min_time_ok=3
+required_text_references_present,PASS,text_reference_count=18

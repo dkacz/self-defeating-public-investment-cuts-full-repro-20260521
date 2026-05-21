@@ -1,0 +1,3 @@
+State-variable subset,Design matrix rank,Condition number,Max state correlation,Support p-value,Maximum absolute Polish z-score,Output p-value h8,Leave-one-country,Bootstrap,Time blocks,Status,Selection reason
+investment import content,8/8 (PASS),70.9 (PASS),0.000 (PASS),0.872 (PASS),0.161 (PASS),0.004 (PASS),27/27 (PASS),19/19 (PASS),3/3 (PASS),Retained,All screening diagnostics passed
+household net financial worth,8/8 (PASS),68.4 (PASS),0.000 (PASS),0.441 (PASS),0.769 (PASS),0.013 (PASS),27/27 (PASS),19/19 (PASS),3/3 (PASS),Retained,All screening diagnostics passed

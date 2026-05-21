@@ -1,0 +1,3 @@
+check,status,detail
+all_horizons_present,PASS,h0-h8 per admitted spec
+all_regressions_ok,PASS,status_Y/status_G

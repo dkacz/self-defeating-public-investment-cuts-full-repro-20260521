@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": null,
+      "name": "adopted_model_inputs",
+      "path": "data/frozen/adopted_model_inputs",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": null,
+      "name": "adopted_run_outputs",
+      "path": "data/frozen/adopted_run_outputs",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": null,
+      "name": "adopted_sources",
+      "path": "data/frozen/adopted_sources",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": null,
+      "name": "eu27_benchmark_debt",
+      "path": "data/frozen/eu27_benchmark_debt",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "frozen",
+  "path": "data/frozen",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

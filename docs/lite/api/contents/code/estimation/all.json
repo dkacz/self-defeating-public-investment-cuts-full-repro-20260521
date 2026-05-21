@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/x-python",
+      "name": "debt_accounting_model.py",
+      "path": "code/estimation/debt_accounting_model.py",
+      "size": 40329,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/x-python",
+      "name": "feature_screen_model.py",
+      "path": "code/estimation/feature_screen_model.py",
+      "size": 66331,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/x-python",
+      "name": "polish_output_spending_model.py",
+      "path": "code/estimation/polish_output_spending_model.py",
+      "size": 20107,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "estimation",
+  "path": "code/estimation",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

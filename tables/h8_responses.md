@@ -1,0 +1,6 @@
+| Estimation track                                         | Country characteristics used for evaluation         | K_Y h8   | K_G h8   | K_Y/K_G h8   |
+|:---------------------------------------------------------|:----------------------------------------------------|:---------|:---------|:-------------|
+| EU27 panel benchmark                                     | Common EU27 response without state interactions     | 2.11     | 0.76     | 2.79         |
+| Polish evaluation based on investment import content     | Official TiVA GFCF import-content profile           | 1.84     | 0.69     | 2.65         |
+| Polish evaluation based on household net financial worth | Eurostat financial-accounts balance-sheet profile   | 2.16     | 0.75     | 2.89         |
+| Equal weight average across the two Polish evaluations   | Arithmetic average of the two retained Polish paths | 2.00     | 0.72     | 2.78         |

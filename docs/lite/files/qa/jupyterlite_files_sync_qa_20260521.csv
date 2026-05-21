@@ -1,0 +1,7 @@
+check,status,detail
+jupyterlite_files_payload_refreshed,PASS,files=164
+jupyterlite_reader_facing_files_use_semantic_labels,PASS,none
+jupyterlite_public_code_avoids_project_state_labels,PASS,none
+jupyterlite_excludes_precomputed_recomputed_results,PASS,results/recomputed omitted from files and api/contents metadata
+jupyterlite_api_contents_excludes_omitted_payloads,PASS,none
+jupyterlite_api_contents_mirrors_file_payload,PASS,none

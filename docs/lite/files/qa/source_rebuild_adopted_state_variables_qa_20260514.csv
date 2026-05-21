@@ -1,0 +1,16 @@
+state_variable,check,status,rebuilt,table_value,tolerance
+Investment import content,n,PASS,513,513,0.0
+Investment import content,mean_rounded_3,PASS,0.429,0.429,0.0005
+Investment import content,sd_rounded_3,PASS,0.101,0.101,0.0005
+Investment import content,poland_value_rounded_3,PASS,0.413,0.413,0.0005
+Investment import content,poland_z_rounded_3,PASS,-0.161,-0.161,0.0005
+Household net financial worth,n,PASS,513,513,0.0
+Household net financial worth,mean_rounded_3,PASS,-1.112,-1.112,0.0005
+Household net financial worth,sd_rounded_3,PASS,0.592,0.592,0.0005
+Household net financial worth,poland_value_rounded_3,PASS,-0.657,-0.657,0.0005
+Household net financial worth,poland_z_rounded_3,PASS,0.769,0.769,0.0005
+Real PPP income level,n,PASS,513,513,0.0
+Real PPP income level,mean_rounded_3,PASS,10.21,10.21,0.0005
+Real PPP income level,sd_rounded_3,PASS,0.384,0.384,0.0005
+Real PPP income level,poland_value_rounded_3,PASS,10.184,10.184,0.0005
+Real PPP income level,poland_z_rounded_3,PASS,-0.068,-0.068,0.0005

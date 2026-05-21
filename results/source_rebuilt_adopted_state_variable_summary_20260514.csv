@@ -1,0 +1,4 @@
+state_variable,raw_column,z_column,sample_start,sample_end,n,mean,sd_population,poland_value_2022,poland_z_2022
+Investment import content,tiva2022_gfcf_import_content_raw,trade_z,2004,2022,513,0.429329298246,0.100845873459,0.41308,-0.161130026329
+Household net financial worth,liq_fa_net_worth_raw,liq_z,2004,2022,513,-1.11225588422,0.591976862434,-0.657147826933,0.768793657596
+Real PPP income level,log_real_ppp_gdp_pc_raw,log_gdp_pc_z,2004,2022,513,10.2102310359,0.383667094149,10.1841491503,-0.0679805122286

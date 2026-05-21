@@ -1,0 +1,16 @@
+features,horizon,status,nobs,wald_y_h8,p_wald_y_h8,spec_id,feature_count
+trade,8,OK,351,8.390818703,0.003771210,investment_import_content,1
+debt,8,OK,351,2.419546172,0.119829641,public_debt,1
+liq,8,OK,351,6.163208456,0.013043441,household_net_financial_worth,1
+log_gdp_pc,8,OK,351,0.537916499,0.463297482,real_ppp_income,1
+trade+debt,8,OK,351,0.221163113,0.895313308,investment_import_content__public_debt,2
+trade+liq,8,OK,351,0.724165301,0.696224822,investment_import_content__household_net_financial_worth,2
+trade+log_gdp_pc,8,OK,351,0.783549322,0.675856393,investment_import_content__real_ppp_income,2
+debt+liq,8,OK,351,0.434589144,0.804692894,public_debt__household_net_financial_worth,2
+debt+log_gdp_pc,8,OK,351,0.213311720,0.898834945,public_debt__real_ppp_income,2
+liq+log_gdp_pc,8,OK,351,0.196802651,0.906285116,household_net_financial_worth__real_ppp_income,2
+trade+debt+liq,8,OK,351,0.315801574,0.957029747,investment_import_content__public_debt__household_net_financial_worth,3
+trade+debt+log_gdp_pc,8,OK,351,1.603687583,0.658553974,investment_import_content__public_debt__real_ppp_income,3
+trade+liq+log_gdp_pc,8,OK,351,1.464710207,0.690438814,investment_import_content__household_net_financial_worth__real_ppp_income,3
+debt+liq+log_gdp_pc,8,OK,351,0.263772244,0.966691430,public_debt__household_net_financial_worth__real_ppp_income,3
+trade+debt+liq+log_gdp_pc,8,OK,351,0.476255863,0.975770928,investment_import_content__public_debt__household_net_financial_worth__real_ppp_income,4

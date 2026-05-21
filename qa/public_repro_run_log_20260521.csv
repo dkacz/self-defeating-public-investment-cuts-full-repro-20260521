@@ -1,0 +1,10 @@
+script,status,returncode,output_tail
+rebuild_adopted_state_variables_from_sources.py,PASS,0,source rebuild QA PASS for adopted state variables
+run_full_estimator_repro.py,PASS,0,"Full estimator repro completed. Verbose internal estimator stdout is suppressed in this public run ledger; see results/recomputed/, tables/ and qa/full_estimator_repro_validation.csv for reproduced outputs."
+build_adopted_specification_summary.py,PASS,0,wrote results/adopted_specification_summary_20260514.csv rows=8
+build_public_tables_figures.py,PASS,0,public tables and figures built
+build_public_notebook.py,PASS,0,wrote notebooks/self_defeating_public_investment_cuts_full_repro_20260521.ipynb
+audit_hardcoded_validation_targets.py,PASS,0,
+execute_public_notebook.py,PASS,0,PASS public notebook execution: ./qa/notebook_execution_log.txt
+build_public_downloads.py,PASS,0,Download archive rebuilt. The external docs/downloads/*.sha256 file is the authoritative archive checksum; archive-internal QA ledgers do not certify the containing ZIP hash.
+sync_jupyterlite_files.py,PASS,0,jupyterlite files sync PASS files=164

@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "adopted_sources_manifest_20260514.csv",
+      "path": "data/provenance/adopted_sources_manifest_20260514.csv",
+      "size": 989,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "frozen_inputs_manifest_20260514.csv",
+      "path": "data/provenance/frozen_inputs_manifest_20260514.csv",
+      "size": 7498,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "upstream_source_fetch_manifest_from_figaro_tiva_extension_20260514.csv",
+      "path": "data/provenance/upstream_source_fetch_manifest_from_figaro_tiva_extension_20260514.csv",
+      "size": 16735,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "provenance",
+  "path": "data/provenance",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

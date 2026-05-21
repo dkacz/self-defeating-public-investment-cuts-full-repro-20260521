@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_debt_margins_2036.png",
+      "path": "figures/figure_debt_margins_2036.png",
+      "size": 56176,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_intro_dsa_baseline_path.png",
+      "path": "figures/figure_intro_dsa_baseline_path.png",
+      "size": 76796,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_ky_paths.png",
+      "path": "figures/figure_ky_paths.png",
+      "size": 111938,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "image/png",
+      "name": "figure_output_spending_ratio_paths.png",
+      "path": "figures/figure_output_spending_ratio_paths.png",
+      "size": 120021,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "figures",
+  "path": "figures",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

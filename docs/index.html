@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Self-Defeating Public Investment Cuts - Reproducibility Package</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      margin: 0;
+      color: #111827;
+      background: #f8fafc;
+    }
+    main {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 48px 24px 64px;
+      background: #ffffff;
+      min-height: 100vh;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+    h2 {
+      font-size: 1.2rem;
+      margin-top: 32px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 12px;
+    }
+    th, td {
+      border-bottom: 1px solid #d1d5db;
+      padding: 10px 8px;
+      text-align: left;
+    }
+    th:last-child, td:last-child {
+      text-align: right;
+    }
+    a {
+      color: #0f766e;
+      font-weight: 600;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 20px 0 28px;
+    }
+    .button {
+      display: inline-block;
+      border-radius: 8px;
+      padding: 12px 16px;
+      text-decoration: none;
+      color: #ffffff;
+      background: #0f766e;
+    }
+    .button.secondary {
+      color: #0f766e;
+      background: #ecfdf5;
+      border: 1px solid #99f6e4;
+    }
+    code, pre {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    pre {
+      background: #111827;
+      color: #f9fafb;
+      padding: 14px 16px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Self-Defeating Public Investment Cuts</h1>
+  <p>Public Jupyter reproducibility package for the manuscript-facing empirical results.</p>
+
+  <div class="actions">
+    <a class="button" href="lite/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_full_repro_20260521.ipynb">Run the notebook in the browser</a>
+    <a class="button secondary" href="https://github.com/dkacz/self-defeating-public-investment-cuts-full-repro-20260521/blob/main/notebooks/self_defeating_public_investment_cuts_full_repro_20260521.ipynb">View the notebook on GitHub</a>
+    <a class="button secondary" href="downloads/full_repro_package_20260521.zip">Download code and frozen data</a>
+  </div>
+
+  <p>The browser version runs with JupyterLite and the Python Pyodide kernel. The local package includes frozen inputs and validation targets; the full local runner recomputes the estimator before rebuilding the manuscript tables, figures and QA ledgers.</p>
+
+  <p>
+    Full package repository:
+    <a href="https://github.com/dkacz/self-defeating-public-investment-cuts-full-repro-20260521">github.com/dkacz/self-defeating-public-investment-cuts-full-repro-20260521</a>.
+  </p>
+
+  <h2>Headline Values</h2>
+  <table>
+    <thead>
+      <tr><th>Quantity</th><th>Value</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Horizon-8 EU27 output response</td><td>2.11</td></tr>
+      <tr><td>Horizon-8 investment-import-content Polish response</td><td>1.84</td></tr>
+      <tr><td>Horizon-8 household-net-financial-worth Polish response</td><td>2.16</td></tr>
+      <tr><td>Horizon-8 equal-weight Polish response</td><td>2.00</td></tr>
+      <tr><td>2036 cut margin, equal-weight institutional debt equation</td><td>+5.7 pp</td></tr>
+      <tr><td>2036 cut margin, equal-weight direct debt-to-GDP path</td><td>+3.0 pp</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Run Locally</h2>
+  <pre><code>python3 code/run_public_repro.py</code></pre>
+  <p>Expected terminal result: <code>public reproducibility PASS</code>.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "polish_output_spending_h8_summary.csv",
+      "path": "data/frozen/adopted_run_outputs/polish_output_spending/polish_output_spending_h8_summary.csv",
+      "size": 377,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "polish_output_spending_paths.csv",
+      "path": "data/frozen/adopted_run_outputs/polish_output_spending/polish_output_spending_paths.csv",
+      "size": 5782,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "qa_checks.csv",
+      "path": "data/frozen/adopted_run_outputs/polish_output_spending/qa_checks.csv",
+      "size": 112,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "polish_output_spending",
+  "path": "data/frozen/adopted_run_outputs/polish_output_spending",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

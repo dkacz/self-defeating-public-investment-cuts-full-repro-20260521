@@ -1,0 +1,3 @@
+spec_id,features,scenario,scenario_sign,dsa_margin_vs_baseline_pp,direct_DY_LP_margin_pp,Y_shortfall_pct,direct_discretionary_PB_level_pp
+EU27,linear,three_1pp_cut_2028_2030,cut,6.986932839,3.669125853,5.763704730,2.080381959
+EU27,linear,three_1pp_expansion_2028_2030,expansion,-6.534956104,-3.669125853,-5.763704730,-2.080381959

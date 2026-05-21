@@ -1,0 +1,13 @@
+check,status,detail
+source_code_rows,PASS,13
+state_rows,PASS,4
+screen_rows,PASS,15
+retained_specs,PASS,investment import content; household net financial worth
+debt_rows,PASS,4
+debt_table_includes_eu27_benchmark,PASS,"EU27 panel benchmark,Polish evaluation based on investment import content,Polish evaluation based on household net financial worth,Equal weight average across the two Polish evaluations"
+debt_decomposition_rows,PASS,54
+eu27_annual_debt_decomposition_rows,PASS,18
+eu27_annual_debt_decomposition_actions,PASS,"Cut,Expansion"
+figure2_includes_eu27_benchmark,PASS,EU27 benchmark path recomputed by code/run_full_estimator_repro.py
+estimation_output_tables_present,PASS,regression output disclosure tables
+uses_recomputed_outputs_for_tables,PASS,all manuscript-facing tables and figures read results/recomputed; frozen run outputs and EU27 debt files are validation targets only

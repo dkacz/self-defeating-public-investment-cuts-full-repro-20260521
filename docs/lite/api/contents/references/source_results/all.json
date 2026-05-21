@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "operator_adopted_specification_table_from_figaro_tiva_extension_20260514.csv",
+      "path": "references/source_results/operator_adopted_specification_table_from_figaro_tiva_extension_20260514.csv",
+      "size": 29499,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/plain",
+      "name": "SOURCE_RESULTS_SHA256SUMS.txt",
+      "path": "references/source_results/SOURCE_RESULTS_SHA256SUMS.txt",
+      "size": 489,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "specification_grid_summary_from_cash_transferable_trial_20260514.csv",
+      "path": "references/source_results/specification_grid_summary_from_cash_transferable_trial_20260514.csv",
+      "size": 6745,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": "text/csv",
+      "name": "specification_grid_summary_from_figaro_tiva_extension_20260514.csv",
+      "path": "references/source_results/specification_grid_summary_from_figaro_tiva_extension_20260514.csv",
+      "size": 9365,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-05-21T00:00:00Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-05-21T00:00:00Z",
+  "mimetype": null,
+  "name": "source_results",
+  "path": "references/source_results",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

@@ -1,0 +1,10 @@
+spec_version,spec_id,features,profile_label,horizon,direct_DY_initial_action,se_direct_DY_initial_action,status_DY_initial,nobs,country_n,year_min_effective,year_max_effective,rank_X
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,0,-1.418286049,0.585519481,OK,557,27,2004,2024,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,1,-2.512647110,0.919983860,OK,531,27,2004,2023,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,2,-2.337827251,1.243966894,OK,506,27,2004,2022,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,3,-1.793635304,1.414039986,OK,481,27,2004,2021,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,4,-0.174800398,0.962313183,OK,456,27,2004,2020,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,5,0.320560876,0.972761992,OK,431,27,2004,2019,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,6,-1.235907300,0.942254203,OK,405,27,2004,2018,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,7,-1.063811297,1.059648323,OK,378,27,2004,2017,6
+mozdzen_tiva2022_gfcf_realppp_networth_eu27_debt_20260520,EU27,linear,EU27_panel_benchmark,8,-1.369407256,0.877912823,OK,351,27,2004,2016,6

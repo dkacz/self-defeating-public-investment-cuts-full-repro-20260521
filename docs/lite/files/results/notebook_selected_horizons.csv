@@ -1,0 +1,16 @@
+Path,Horizon,Incremental output response,Cumulative K_Y,Incremental spending response,Cumulative K_G,K_Y/K_G,Observations,Countries,Years
+EU27 panel benchmark,0,+1.140 (0.256),1.14,+1.000 (0.000),1.0,1.14,557,27,2004-2024
+EU27 panel benchmark,1,+0.916 (0.315),2.056,+0.004 (0.088),1.004,2.049,531,27,2004-2023
+EU27 panel benchmark,2,+0.142 (0.244),2.198,-0.174 (0.049),0.829,2.65,506,27,2004-2022
+EU27 panel benchmark,5,-0.018 (0.094),1.71,-0.003 (0.024),0.654,2.614,431,27,2004-2019
+EU27 panel benchmark,8,+0.229 (0.138),2.108,+0.081 (0.040),0.757,2.786,351,27,2004-2016
+Household net financial worth,0,+1.194 (0.337),1.194,+1.000 (0.000),1.0,1.194,531,27,2004-2023
+Household net financial worth,1,+1.172 (0.307),2.366,+0.054 (0.075),1.054,2.244,531,27,2004-2023
+Household net financial worth,2,+0.096 (0.245),2.462,-0.214 (0.041),0.841,2.929,506,27,2004-2022
+Household net financial worth,5,+0.047 (0.118),1.614,+0.003 (0.032),0.678,2.379,431,27,2004-2019
+Household net financial worth,8,+0.384 (0.071),2.158,+0.046 (0.036),0.746,2.893,351,27,2004-2016
+Investment import content,0,+1.387 (0.215),1.387,+1.000 (0.000),1.0,1.387,531,27,2004-2023
+Investment import content,1,+0.918 (0.320),2.306,+0.015 (0.068),1.015,2.273,531,27,2004-2023
+Investment import content,2,-0.008 (0.263),2.297,-0.183 (0.048),0.831,2.763,506,27,2004-2022
+Investment import content,5,-0.209 (0.100),1.221,-0.011 (0.036),0.6,2.037,431,27,2004-2019
+Investment import content,8,+0.343 (0.091),1.838,+0.075 (0.038),0.694,2.649,351,27,2004-2016

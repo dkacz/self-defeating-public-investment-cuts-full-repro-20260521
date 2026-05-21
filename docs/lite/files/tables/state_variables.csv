@@ -1,0 +1,5 @@
+State variable,Measure,Source,Mean,SD,N,Poland value,Poland z
+Investment import content,"Import content of gross fixed capital formation, from OECD TiVA domestic value-added shares","OECD TiVA 2025, GFCF_VA_SH",0.429,0.101,513,0.413,-0.161
+Public debt,"Maastricht gross debt, percent of GDP",Eurostat government debt,62.5,36.5,567,48.8,-0.377
+Household net financial worth,Negative household net financial worth divided by nominal GDP,Eurostat financial accounts and nominal GDP,-1.112,0.592,513,-0.657,+0.769
+Real PPP income level,Log real GDP per capita in 2020 PPS terms,Eurostat national accounts,10.210,0.384,513,10.184,-0.068

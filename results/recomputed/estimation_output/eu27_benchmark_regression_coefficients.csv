@@ -1,0 +1,109 @@
+path,spec_id,features,outcome,horizon,term,term_role,coefficient,std_error,z_stat,p_value,nobs,country_n,year_min,year_max,design_rank,regressor_count,status
+EU27 panel benchmark,EU27,linear,output,0,shock_G_I,beta_h: common public-investment shock coefficient,0.046864219,0.010779155,4.347670736,0.000013759,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,output,0,shock_G_C,public-consumption shock control,0.241360716,0.059420138,4.061934633,0.000048668,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,output,0,dlog_gi_lag1,lagged control,0.018491443,0.006702584,2.758852884,0.005800464,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,output,0,dlog_gc_lag1,lagged control,0.021008354,0.067001236,0.313551745,0.753861515,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,output,0,dlog_y_lag1,lagged control,0.299441767,0.088399760,3.387359501,0.000705689,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,output,0,i_rate_lag1,lagged control,-0.001219259,0.001210836,-1.006956921,0.313955476,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,output,1,shock_G_I,beta_h: common public-investment shock coefficient,0.037713238,0.012699567,2.969647490,0.002981417,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,output,1,shock_G_C,public-consumption shock control,0.194865710,0.066709297,2.921117747,0.003487780,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,output,1,dlog_gi_lag1,lagged control,0.006290338,0.007345037,0.856406567,0.391772933,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,output,1,dlog_gc_lag1,lagged control,0.000927128,0.054846831,0.016903943,0.986513247,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,output,1,dlog_y_lag1,lagged control,0.011383221,0.102106799,0.111483475,0.911232969,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,output,1,i_rate_lag1,lagged control,-0.000146190,0.001219852,-0.119842750,0.904607716,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,output,2,shock_G_I,beta_h: common public-investment shock coefficient,0.005842197,0.010008169,0.583742834,0.559393344,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,output,2,shock_G_C,public-consumption shock control,0.035381924,0.050374679,0.702375166,0.482445228,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,output,2,dlog_gi_lag1,lagged control,-0.003188606,0.010539563,-0.302536880,0.762242823,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,output,2,dlog_gc_lag1,lagged control,0.011405809,0.046593874,0.244792023,0.806617470,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,output,2,dlog_y_lag1,lagged control,-0.057181980,0.076864178,-0.743935360,0.456915582,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,output,2,i_rate_lag1,lagged control,0.002297005,0.000974299,2.357598825,0.018393559,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,output,3,shock_G_I,beta_h: common public-investment shock coefficient,-0.010554076,0.011606833,-0.909298539,0.363192562,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,output,3,shock_G_C,public-consumption shock control,0.012589537,0.049265995,0.255542125,0.798304412,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,output,3,dlog_gi_lag1,lagged control,0.000106569,0.009456925,0.011268897,0.991008911,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,output,3,dlog_gc_lag1,lagged control,0.017873023,0.038099760,0.469111169,0.638990176,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,output,3,dlog_y_lag1,lagged control,-0.083333958,0.064534749,-1.291303670,0.196598399,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,output,3,i_rate_lag1,lagged control,0.003303097,0.001406934,2.347725998,0.018888411,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,output,4,shock_G_I,beta_h: common public-investment shock coefficient,-0.008787872,0.013563390,-0.647911121,0.517042437,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,output,4,shock_G_C,public-consumption shock control,-0.020166050,0.028071247,-0.718388124,0.472518007,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,output,4,dlog_gi_lag1,lagged control,0.002883536,0.005839040,0.493837306,0.621421084,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,output,4,dlog_gc_lag1,lagged control,-0.228373160,0.034892191,-6.545108027,0.000000000,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,output,4,dlog_y_lag1,lagged control,0.061934853,0.051587563,1.200577223,0.229915241,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,output,4,i_rate_lag1,lagged control,0.000784937,0.000952162,0.824373762,0.409727219,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,output,5,shock_G_I,beta_h: common public-investment shock coefficient,-0.000753340,0.003889948,-0.193663307,0.846439525,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,output,5,shock_G_C,public-consumption shock control,-0.207883929,0.051678823,-4.022613465,0.000057556,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,output,5,dlog_gi_lag1,lagged control,-0.004016768,0.004148221,-0.968310921,0.332889112,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,output,5,dlog_gc_lag1,lagged control,-0.183420482,0.052131553,-3.518415833,0.000434132,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,output,5,dlog_y_lag1,lagged control,0.042627324,0.125311947,0.340169673,0.733728755,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,output,5,i_rate_lag1,lagged control,-0.002668257,0.001335425,-1.998057860,0.045710388,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,output,6,shock_G_I,beta_h: common public-investment shock coefficient,0.002772937,0.003987230,0.695454478,0.486770530,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,output,6,shock_G_C,public-consumption shock control,-0.141815545,0.071732780,-1.976997752,0.048041884,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,output,6,dlog_gi_lag1,lagged control,-0.007179600,0.012047245,-0.595953697,0.551206159,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,output,6,dlog_gc_lag1,lagged control,-0.090867462,0.068992499,-1.317062912,0.187817537,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,output,6,dlog_y_lag1,lagged control,0.015551964,0.114326028,0.136031698,0.891796223,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,output,6,i_rate_lag1,lagged control,-0.001055472,0.000878273,-1.201758723,0.229457022,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,output,7,shock_G_I,beta_h: common public-investment shock coefficient,0.004327920,0.006953411,0.622416807,0.533667832,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,output,7,shock_G_C,public-consumption shock control,-0.089788940,0.050791134,-1.767807329,0.077093119,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,output,7,dlog_gi_lag1,lagged control,0.006886858,0.004252158,1.619614925,0.105315022,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,output,7,dlog_gc_lag1,lagged control,-0.229268567,0.039725536,-5.771314621,0.000000008,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,output,7,dlog_y_lag1,lagged control,-0.014908866,0.048492107,-0.307449322,0.758501391,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,output,7,i_rate_lag1,lagged control,-0.000884506,0.000565014,-1.565458272,0.117475494,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,output,8,shock_G_I,beta_h: common public-investment shock coefficient,0.009783159,0.006058720,1.614723840,0.106370512,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,output,8,shock_G_C,public-consumption shock control,-0.183256800,0.037918583,-4.832902085,0.000001346,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,output,8,dlog_gi_lag1,lagged control,0.012406795,0.011111963,1.116525916,0.264197083,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,output,8,dlog_gc_lag1,lagged control,-0.027328564,0.049711229,-0.549746299,0.582493396,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,output,8,dlog_y_lag1,lagged control,-0.135218290,0.067187279,-2.012557917,0.044161158,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,output,8,i_rate_lag1,lagged control,-0.000137007,0.000610294,-0.224492710,0.822373939,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,0,shock_G_I,beta_h: common public-investment shock coefficient,0.041126432,0.001146468,35.872275608,0.000000000,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,0,shock_G_C,public-consumption shock control,0.001696436,0.003453235,0.491259876,0.623242655,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,0,dlog_gi_lag1,lagged control,-0.002393249,0.000954905,-2.506269532,0.012201257,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,0,dlog_gc_lag1,lagged control,0.017847406,0.003166920,5.635571615,0.000000017,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,0,dlog_y_lag1,lagged control,0.019737123,0.004259425,4.633752301,0.000003591,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,0,i_rate_lag1,lagged control,-0.000333076,0.000073404,-4.537596550,0.000005690,557,27,2004,2024,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,1,shock_G_I,beta_h: common public-investment shock coefficient,0.000148612,0.003635333,0.040880012,0.967391552,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,1,shock_G_C,public-consumption shock control,0.032744787,0.009507172,3.444219385,0.000572711,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,1,dlog_gi_lag1,lagged control,-0.007550227,0.002197857,-3.435268093,0.000591968,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,1,dlog_gc_lag1,lagged control,-0.001945374,0.012114164,-0.160586775,0.872418871,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,1,dlog_y_lag1,lagged control,0.021641269,0.015012918,1.441509883,0.149440687,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,1,i_rate_lag1,lagged control,0.000497101,0.000365969,1.358312630,0.174364504,531,27,2004,2023,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,2,shock_G_I,beta_h: common public-investment shock coefficient,-0.007182954,0.002051600,-3.501148397,0.000463258,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,2,shock_G_C,public-consumption shock control,0.002263680,0.013151566,0.172122480,0.863341240,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,2,dlog_gi_lag1,lagged control,-0.003642322,0.002766992,-1.316347112,0.188057565,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,2,dlog_gc_lag1,lagged control,-0.001349781,0.015761060,-0.085640223,0.931752422,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,2,dlog_y_lag1,lagged control,0.007302590,0.015716522,0.464644170,0.642186296,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,2,i_rate_lag1,lagged control,0.000695827,0.000309010,2.251791327,0.024335462,506,27,2004,2022,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,3,shock_G_I,beta_h: common public-investment shock coefficient,-0.005394133,0.002669396,-2.020731680,0.043307549,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,3,shock_G_C,public-consumption shock control,0.006129242,0.016685413,0.367341318,0.713364438,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,3,dlog_gi_lag1,lagged control,-0.000396655,0.001989555,-0.199368700,0.841974343,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,3,dlog_gc_lag1,lagged control,-0.014475978,0.013219982,-1.095007425,0.273513384,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,3,dlog_y_lag1,lagged control,-0.000079344,0.013565228,-0.005849076,0.995333140,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,3,i_rate_lag1,lagged control,-0.000009598,0.000204066,-0.047035422,0.962484996,481,27,2004,2021,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,4,shock_G_I,beta_h: common public-investment shock coefficient,-0.001681760,0.002504309,-0.671546472,0.501872465,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,4,shock_G_C,public-consumption shock control,-0.007704270,0.009256666,-0.832294220,0.405242892,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,4,dlog_gi_lag1,lagged control,0.000183136,0.001227881,0.149147675,0.881437108,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,4,dlog_gc_lag1,lagged control,-0.010761923,0.018523092,-0.581000344,0.561240222,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,4,dlog_y_lag1,lagged control,-0.004162873,0.014460369,-0.287881547,0.773437413,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,4,i_rate_lag1,lagged control,-0.000075153,0.000128478,-0.584949203,0.558581873,456,27,2004,2020,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,5,shock_G_I,beta_h: common public-investment shock coefficient,-0.000132032,0.000979782,-0.134756083,0.892804730,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,5,shock_G_C,public-consumption shock control,-0.009285961,0.016412164,-0.565797440,0.571531487,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,5,dlog_gi_lag1,lagged control,-0.000058288,0.001762368,-0.033073794,0.973615741,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,5,dlog_gc_lag1,lagged control,-0.003575210,0.018924492,-0.188919715,0.850155741,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,5,dlog_y_lag1,lagged control,-0.000099614,0.020620684,-0.004830777,0.996145612,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,5,i_rate_lag1,lagged control,-0.000240951,0.000141493,-1.702913112,0.088584330,431,27,2004,2019,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,6,shock_G_I,beta_h: common public-investment shock coefficient,-0.000276320,0.001497411,-0.184531499,0.853596519,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,6,shock_G_C,public-consumption shock control,-0.018807608,0.013045936,-1.441645008,0.149402545,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,6,dlog_gi_lag1,lagged control,-0.003020908,0.002315562,-1.304610861,0.192025388,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,6,dlog_gc_lag1,lagged control,-0.000616125,0.019887413,-0.030980670,0.975284955,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,6,dlog_y_lag1,lagged control,0.013485144,0.009167726,1.470936612,0.141308260,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,6,i_rate_lag1,lagged control,-0.000468312,0.000244321,-1.916792012,0.055264360,405,27,2004,2018,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,7,shock_G_I,beta_h: common public-investment shock coefficient,0.001198754,0.002169781,0.552476998,0.580621589,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,7,shock_G_C,public-consumption shock control,0.018793477,0.026721085,0.703320115,0.481856278,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,7,dlog_gi_lag1,lagged control,0.004632136,0.001814259,2.553183480,0.010674325,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,7,dlog_gc_lag1,lagged control,-0.037138668,0.008353270,-4.446003410,0.000008748,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,7,dlog_y_lag1,lagged control,-0.022250806,0.010472430,-2.124703235,0.033611383,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,7,i_rate_lag1,lagged control,-0.000293183,0.000187845,-1.560774133,0.118577053,378,27,2004,2017,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,8,shock_G_I,beta_h: common public-investment shock coefficient,0.003444237,0.001678224,2.052310659,0.040139481,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,8,shock_G_C,public-consumption shock control,-0.044675550,0.010342606,-4.319563981,0.000015634,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,8,dlog_gi_lag1,lagged control,0.003090606,0.001915963,1.613082581,0.106726568,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,8,dlog_gc_lag1,lagged control,0.018739645,0.021629782,0.866381629,0.386280915,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,8,dlog_y_lag1,lagged control,-0.026283700,0.010887443,-2.414129670,0.015772848,351,27,2004,2016,6,6,OK
+EU27 panel benchmark,EU27,linear,spending,8,i_rate_lag1,lagged control,0.000243004,0.000325177,0.747298411,0.454883451,351,27,2004,2016,6,6,OK
