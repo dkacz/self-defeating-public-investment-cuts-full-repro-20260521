@@ -40,7 +40,7 @@ Latest local validation:
 - `qa/full_estimator_model_input_rebuild_qa.csv`: 9/9 checks passed.
 - `qa/full_estimator_repro_validation.csv`: 16/16 recomputed-versus-benchmark checks passed, including EU27 benchmark debt endpoint and annual decomposition.
 - `qa/public_tables_figures_qa_20260514.csv`: 12/12 checks passed.
-- `results/notebook_check_summary.csv`: 39/39 checks passed.
+- `results/notebook_check_summary.csv`: 19/19 checks passed.
 - `qa/public_repro_qa_20260521.csv`: package-level public reproduction PASS.
 
 The maximum numeric differences in the full-estimator validation are within tolerance and arise only from CSV round-trip precision.
@@ -81,6 +81,23 @@ The MIME mapping was implemented and targeted GPT Pro R5 returned `PASS`, score
 package root and from a freshly extracted public ZIP. JupyterLite API metadata
 reports the notebook step logs as `text/plain`, and the full runner is
 hash-stable across repeated runs.
+
+## Strict R687 Notebook Visibility Addendum
+
+The reopened strict annotation/reproducibility protocol required more
+notebook-visible computation. The current notebook now expands the retained
+Polish output/spending response block and the Polish debt-accounting block into
+visible audit cells: it estimates retained response paths by evaluation and
+horizon, verifies cumulative K arithmetic from incremental estimates, estimates
+direct debt kernels, builds the three-year program paths, reproduces the
+baseline, simulates debt paths, and writes the canonical output files.
+
+The R687 public run returned `public reproducibility PASS`; frozen validation
+still passes 16/16, and reader-facing download/JupyterLite label scans pass.
+This addendum does not change accepted estimates, retained evaluations or model
+hierarchy. It reduces the notebook-transparency blocker, but the strict closure
+round still requires final ledgers, p-value/uncertainty source-to-claim
+evidence, annotation accounting and Pro strict review.
 
 ## Public Delivery Status
 

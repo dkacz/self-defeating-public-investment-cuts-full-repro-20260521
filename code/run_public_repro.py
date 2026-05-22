@@ -153,6 +153,7 @@ def manifest_validation_rows() -> list[dict[str, str]]:
         validate_manifest(PROV / "frozen_inputs_manifest_20260514.csv", ROOT, "path"),
         validate_manifest(RESULTS / "adopted_specification_summary_manifest_20260514.csv", ROOT, "path"),
         validate_manifest(RESULTS / "notebook_manifest_20260521.csv", ROOT, "path"),
+        validate_manifest(RESULTS / "recomputed/full_estimator_manifest.csv", ROOT, "path"),
         validate_manifest(ROOT / "data/frozen/adopted_run_outputs/feature_screen/source_manifest.csv", ROOT, "path"),
     ]
 

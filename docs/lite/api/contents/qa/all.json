@@ -122,7 +122,7 @@
       "mimetype": "text/plain",
       "name": "notebook_execution_log.txt",
       "path": "qa/notebook_execution_log.txt",
-      "size": 126,
+      "size": 230,
       "type": "file",
       "writable": true
     },
@@ -136,7 +136,7 @@
       "mimetype": "text/csv",
       "name": "public_repro_qa_20260521.csv",
       "path": "qa/public_repro_qa_20260521.csv",
-      "size": 1164,
+      "size": 1246,
       "type": "file",
       "writable": true
     },

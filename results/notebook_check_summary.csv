@@ -1,40 +1,47 @@
-check,returncode,passed
-Full estimator reproduction,0,True
-Public tables and figures rebuilt,0,True
-Feature-screen validation - state-variable screen summary,0,True
-Feature-screen validation - output-interaction test at the eighth horizon,0,True
-Feature-screen validation - multiplicity diagnostics for output interaction,0,True
-Feature-screen validation - response paths for all candidate state-variable subsets,0,True
-Feature-screen validation - eighth-horizon response summary,0,True
-Feature-screen validation - bootstrap finite-run summary,0,True
-Feature-screen validation - leave-one-country finite-run summary,0,True
-Feature-screen validation - time-block finite-run summary,0,True
-Polish response validation - Polish response paths,0,True
-Polish response validation - Polish eighth-horizon response summary,0,True
-Polish debt validation - direct debt-to-GDP response path,0,True
-Polish debt validation - three-year programme action paths,0,True
-Polish debt validation - institutional debt-equation paths,0,True
-Polish debt validation - 2036 debt endpoint summary,0,True
-EU27 benchmark debt validation - 2036 debt endpoint validation,0,True
-EU27 benchmark debt validation - annual debt-accounting decomposition,0,True
-"Source rebuild matches frozen target - investment import content, unstandardised source value",0,True
-"Source rebuild matches frozen target - investment import content, standardised value",0,True
-"Source rebuild matches frozen target - investment import content, one-year lag",0,True
-"Source rebuild matches frozen target - household net financial worth, unstandardised source value",0,True
-"Source rebuild matches frozen target - household net financial worth, standardised value",0,True
-"Source rebuild matches frozen target - household net financial worth, one-year lag",0,True
-"Source rebuild matches frozen target - real PPP income, unstandardised source value",0,True
-"Source rebuild matches frozen target - real PPP income, standardised value",0,True
-"Source rebuild matches frozen target - real PPP income, one-year lag",0,True
-source-code table row count,0,True
-state-variable table row count,0,True
-state-variable screen row count,0,True
-retained state-variable subset count,0,True
-debt endpoint table row count,0,True
-debt table includes the EU27 benchmark,0,True
-debt decomposition row count,0,True
-EU27 annual debt-decomposition row count,0,True
-EU27 annual debt-decomposition actions,0,True
-response-path figure includes the EU27 benchmark,0,True
-estimation-output tables are present,0,True
-public tables are built from recomputed outputs,0,True
+check,returncode,passed,detail
+source files present,0,True,files=7
+Poland state profile source row,0,True,rows=1
+source rebuilt model input,0,True,9 source rebuild checks passed
+retained evaluations from fresh screen,0,True,"retained=['household balance-sheet fragility', 'investment import content']"
+diagnostic design matrix full rank,0,True,"                       Evaluation  Horizon  Observations  Countries     Years                                                                                                                                                                                                                          Regressor columns  Residualised design rank  Column count
+household balance-sheet fragility        8           351         27 2004-2016 public-investment shock, public-consumption shock control, lagged state/control: household balance-sheet fragility, public-investment interaction: household balance-sheet fragility, dlog gi lag1, dlog gc lag1, dlog y lag1, i rate lag1                         8             8"
+visible local-projection regression fit,0,True,status=OK; nobs=351
+visible coefficient p-values finite,0,True,"                       Evaluation  Horizon                                                             Term  Coefficient  Standard error  z statistic  Pointwise p-value  Observations  Design rank
+household balance-sheet fragility        8                                          public-investment shock     0.003761        0.007565     0.497231           0.619026           351            8
+household balance-sheet fragility        8 public-investment interaction: household balance-sheet fragility     0.017351        0.006989     2.482581           0.013043           351            8"
+visible interaction covariance full rank,0,True,"                       Evaluation  Horizon  Wald statistic  Degrees of freedom  Wald p-value  Covariance rank
+household balance-sheet fragility        8        6.163208                   1      0.013043                1"
+fifteen candidate Wald tests,0,True,rows=15
+retained response paths h0-h8,0,True,h0-h8 per retained evaluation
+visible cumulative K arithmetic,0,True,"                                                         check status                                              detail
+                 all horizons present for retained evaluations   PASS                       h0-h8 per retained evaluation
+               all output and spending regressions returned OK   PASS        status_Y/status_G over all retained horizons
+cumulative K paths equal visible sums of incremental estimates   PASS K_Y and K_G reconstructed inside this notebook cell"
+visible direct debt LP fit,0,True,"                       Evaluation  Horizon  direct_DY_initial_action  se_direct_DY_initial_action status_DY_initial  nobs  country_n  year_min_effective  year_max_effective  rank_X
+household balance-sheet fragility        8                 -1.869372                     0.918368                OK   351         27                2004                2016       8"
+Polish debt endpoint summary,0,True,rows=4
+visible debt-accounting objects,0,True,"                                               check status                 detail
+direct debt kernels present for retained evaluations   PASS                rows=18
+                               program paths present   PASS                rows=36
+                baseline reproduced within tolerance   PASS max_abs_diff=1.472e-02"
+Appendix D p-value disclosure computed,0,True,rows=90
+public tables and figures,0,True,"                                 check status                                                                                                                                                                                    detail
+                      source_code_rows   PASS                                                                                                                                                                                        13
+                            state_rows   PASS                                                                                                                                                                                         4
+                           screen_rows   PASS                                                                                                                                                                                        15
+                        retained_specs   PASS                                                                                                                                  investment import content; household net financial worth
+                             debt_rows   PASS                                                                                                                                                                                         4
+    debt_table_includes_eu27_benchmark   PASS EU27 panel benchmark,Polish evaluation based on investment import content,Polish evaluation based on household net financial worth,Equal weight average across the two Polish evaluations
+               debt_decomposition_rows   PASS                                                                                                                                                                                        54
+   eu27_annual_debt_decomposition_rows   PASS                                                                                                                                                                                        18
+eu27_annual_debt_decomposition_actions   PASS                                                                                                                                                                             Cut,Expansion
+       figure2_includes_eu27_benchmark   PASS                                                                                                                        EU27 benchmark path recomputed by code/run_full_estimator_repro.py
+      estimation_output_tables_present   PASS                                                                                                                                                       regression output disclosure tables
+    uses_recomputed_outputs_for_tables   PASS                                                      all manuscript-facing tables and figures read results/recomputed; frozen run outputs and EU27 debt files are validation targets only"
+bridge h8 rows,0,True,rows=3
+equal-weight arithmetic,0,True,"                                             Column  Notebook arithmetic  Displayed equal weight  Difference
+             Expansion, institutional debt equation                -5.35                    -5.4        0.05
+Expansion, direct debt-to-GDP local-projection path                -3.00                    -3.0        0.00
+                   Cut, institutional debt equation                 5.70                     5.7        0.00
+      Cut, direct debt-to-GDP local-projection path                 3.00                     3.0        0.00"
+frozen benchmark validation,0,True,16 benchmark comparisons passed

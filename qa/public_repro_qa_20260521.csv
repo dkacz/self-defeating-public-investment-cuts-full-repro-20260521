@@ -5,7 +5,7 @@ qa_passes:qa/full_estimator_repro_validation.csv,PASS,rows=16 bad=0
 qa_passes:qa/adopted_specification_summary_qa_20260514.csv,PASS,rows=10 bad=0
 qa_passes:qa/public_tables_figures_qa_20260514.csv,PASS,rows=12 bad=0
 qa_passes:qa/hardcoded_validation_target_scan_20260521.csv,PASS,rows=1 bad=0
-qa_passes:results/notebook_check_summary.csv,PASS,rows=39 bad=0
+qa_passes:results/notebook_check_summary.csv,PASS,rows=19 bad=0
 qa_passes:qa/jupyterlite_files_sync_qa_20260521.csv,PASS,rows=6 bad=0
 qa_passes:qa/download_archives_qa_20260521.csv,PASS,rows=8 bad=0
 no_external_parent_dependency_in_table_builder,PASS,
@@ -13,4 +13,5 @@ manifest_valid:data/provenance/adopted_sources_manifest_20260514.csv,PASS,rows=7
 manifest_valid:data/provenance/frozen_inputs_manifest_20260514.csv,PASS,rows=54 bad=0
 manifest_valid:results/adopted_specification_summary_manifest_20260514.csv,PASS,rows=5 bad=0
 manifest_valid:results/notebook_manifest_20260521.csv,PASS,rows=8 bad=0
+manifest_valid:results/recomputed/full_estimator_manifest.csv,PASS,rows=118 bad=0
 manifest_valid:data/frozen/adopted_run_outputs/feature_screen/source_manifest.csv,PASS,rows=30 bad=0

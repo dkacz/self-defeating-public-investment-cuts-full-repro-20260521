@@ -1,3 +1,4 @@
 check,status,detail
-all_horizons_present,PASS,h0-h8 per admitted spec
-all_regressions_ok,PASS,status_Y/status_G
+all horizons present for retained evaluations,PASS,h0-h8 per retained evaluation
+all output and spending regressions returned OK,PASS,status_Y/status_G over all retained horizons
+cumulative K paths equal visible sums of incremental estimates,PASS,K_Y and K_G reconstructed inside this notebook cell

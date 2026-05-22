@@ -1,3 +1,4 @@
 check,status,detail
-debt_rows_present,PASS,rows=52
-baseline_reproduction_within_tolerance,PASS,max_abs_diff=1.472e-02
+direct debt kernels present for retained evaluations,PASS,rows=18
+program paths present,PASS,rows=36
+baseline reproduced within tolerance,PASS,max_abs_diff=1.472e-02

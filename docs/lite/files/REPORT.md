@@ -80,7 +80,7 @@ Local quality-assurance results are recorded in
 `qa/public_repro_qa_20260521.csv` and
 `results/notebook_check_summary.csv`.
 
-## GPT Pro R4 status and R5 repair
+## GPT Pro R4 status, R5 repair, and strict R687 notebook addendum
 
 GPT Pro R4 returned `REVISE`, score `9/10`. Arithmetic, data flow,
 recompute-first notebook structure, benchmark-file validation, and the absence
@@ -99,5 +99,26 @@ Paper-truth impact: none. The R4/R5 issue concerns public-package determinism,
 not accepted estimates, retained evaluations, the EU27 benchmark, debt paths,
 equal-weight results, model hierarchy, or the operator's replacement decision.
 
-Closure status: awaiting targeted GPT Pro R5 review of the MIME fix and local
-QA evidence.
+GPT Pro R5 later returned `PASS`, score `10/10`, with no mandatory fixes for
+the scoped public-reproducibility package gate.
+
+On 2026-05-22, the stricter annotation/reproducibility closure protocol
+required a more granular public notebook. The notebook was updated so the
+retained Polish output/spending paths and the Polish debt-accounting paths are
+computed through visible notebook cells rather than by calling the larger public
+runner wrapper. The canonical CSV outputs remain schema-compatible with the
+frozen validation targets, and the full public runner again returns:
+
+```text
+public reproducibility PASS
+```
+
+Current R687 QA:
+
+- `qa/full_estimator_repro_validation.csv`: 16/16 PASS.
+- `results/notebook_check_summary.csv`: 19/19 PASS.
+- `qa/download_archives_qa_20260521.csv`: 8/8 PASS.
+- `qa/jupyterlite_files_sync_qa_20260521.csv`: 6/6 PASS.
+
+Paper-truth impact remains none. This R687 addendum improves audit visibility
+inside the notebook; it is not final closure of the strict annotation round.
