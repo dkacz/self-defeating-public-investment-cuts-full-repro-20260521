@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import shutil
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -19,8 +20,9 @@ EU27_OUTPUT_SPENDING = RUN_OUTPUTS / "eu27_benchmark/eu27_output_spending_paths.
 
 TABLES = ROOT / "tables"
 FIGURES = ROOT / "figures"
+MANUSCRIPT_FIGURES = ROOT / "manuscript/figures"
 QA = ROOT / "qa"
-for path in [TABLES, FIGURES, QA]:
+for path in [TABLES, FIGURES, MANUSCRIPT_FIGURES, QA]:
     path.mkdir(parents=True, exist_ok=True)
 
 
@@ -986,6 +988,15 @@ def build_figures(paths: pd.DataFrame) -> None:
     plt.close(fig)
 
 
+def sync_generated_figures_to_manuscript_source() -> None:
+    """Keep the public figure payload and manuscript source bundle byte-identical."""
+
+    for source in sorted(FIGURES.glob("*.png")):
+        target = MANUSCRIPT_FIGURES / source.name
+        if target.exists():
+            shutil.copy2(source, target)
+
+
 def main() -> None:
     required_inputs = [
         INPUTS / "country_feature_panel.csv",
@@ -1012,6 +1023,7 @@ def main() -> None:
     eu27_debt_decomp = build_eu27_debt_decomposition_table()
     build_estimation_output_tables()
     build_figures(paths)
+    sync_generated_figures_to_manuscript_source()
     feature_screen_summary = pd.read_csv(RUN_OUTPUTS / "feature_screen" / "feature_robustness_summary.csv")
     retained_spec_ids = set(
         feature_screen_summary.loc[

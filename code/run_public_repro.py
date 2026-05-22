@@ -211,6 +211,32 @@ def manuscript_source_bundle_rows() -> list[dict[str, str]]:
     ]
 
 
+def active_figure_hash_rows() -> list[dict[str, str]]:
+    rows = []
+    active_dirs = [
+        ROOT / "figures",
+        ROOT / "manuscript/figures",
+        ROOT / "docs/lite/files/figures",
+        ROOT / "docs/lite/files/manuscript/figures",
+    ]
+    figure_names = sorted(path.name for path in (ROOT / "figures").glob("*.png"))
+    for figure_name in figure_names:
+        paths = [folder / figure_name for folder in active_dirs]
+        missing = [str(path.relative_to(ROOT)) for path in paths if not path.exists()]
+        hashes = {sha256(path) for path in paths if path.exists()}
+        rows.append(
+            {
+                "check": f"active_figure_hashes_match:{figure_name}",
+                "status": "PASS" if not missing and len(hashes) == 1 else "FAIL",
+                "detail": (
+                    f"copies={len(paths) - len(missing)}/{len(paths)} hashes={len(hashes)}"
+                    + ("" if not missing else f" missing={missing[0]}")
+                ),
+            }
+        )
+    return rows
+
+
 def run_script(name: str, args: list[str]) -> dict[str, str]:
     env = os.environ.copy()
     env["PYTHONDONTWRITEBYTECODE"] = "1"
@@ -296,6 +322,7 @@ def build_qa_rows() -> list[dict[str, str]]:
     )
     qa_rows.extend(manifest_validation_rows())
     qa_rows.extend(manuscript_source_bundle_rows())
+    qa_rows.extend(active_figure_hash_rows())
     return qa_rows
 
 

@@ -19,3 +19,7 @@ manuscript_source_bundle_present,PASS,manuscript/manuscript_imrad.qmd
 manuscript_qmd_include_targets_present,PASS,targets=8 missing=0
 manuscript_figure_targets_present,PASS,targets=4 missing=0
 manuscript_pdf_header_target_present,PASS,targets=1 missing=0
+active_figure_hashes_match:figure_debt_margins_2036.png,PASS,copies=4/4 hashes=1
+active_figure_hashes_match:figure_intro_dsa_baseline_path.png,PASS,copies=4/4 hashes=1
+active_figure_hashes_match:figure_ky_paths.png,PASS,copies=4/4 hashes=1
+active_figure_hashes_match:figure_output_spending_ratio_paths.png,PASS,copies=4/4 hashes=1
