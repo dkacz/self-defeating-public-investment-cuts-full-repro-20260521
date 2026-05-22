@@ -80,7 +80,7 @@ Local quality-assurance results are recorded in
 `qa/public_repro_qa_20260521.csv` and
 `results/notebook_check_summary.csv`.
 
-## Audit Visibility And Public Package Status
+## Recompute And Public Package Status
 
 The package is designed as a recompute-first replication of the manuscript
 setting. Local QA passes from the package root and from a freshly extracted copy
@@ -107,9 +107,10 @@ Current QA:
 - `qa/download_archives_qa_20260521.csv`: 8/8 PASS.
 - `qa/jupyterlite_files_sync_qa_20260521.csv`: 6/6 PASS.
 
-This package does not change accepted estimates, retained evaluations, the EU27
-benchmark, debt paths, equal-weight results or model hierarchy. It improves
-audit visibility for the public reproduction path.
+The package reproduces the current manuscript-facing specification. It does not
+introduce an alternative empirical specification or revise the reported values;
+its role is to make the data, estimation, accounting, tables and figures
+auditable from the shipped inputs.
 
 ## Public URL Freshness
 

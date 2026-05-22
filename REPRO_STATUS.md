@@ -66,7 +66,7 @@ The package now writes compact and machine-readable regression-output tables:
 - `results/recomputed/estimation_output/retained_regression_coefficients.csv`
 - `results/recomputed/estimation_output/eu27_benchmark_regression_coefficients.csv`
 
-These tables report the visible regression output needed to address the annotation that the paper lacked estimation results.
+These tables report the coefficient-level regression output underlying the manuscript response paths.
 
 ## Notebook Visibility
 
@@ -78,8 +78,9 @@ three-year programme paths, reproduces the baseline, simulates debt paths, and
 writes the canonical output files.
 
 The public run returns `public reproducibility PASS`; frozen validation passes
-16/16, and reader-facing download/JupyterLite label scans pass. This status does
-not change accepted estimates, retained evaluations or model hierarchy.
+16/16, and reader-facing download/JupyterLite label scans pass. The validation
+confirms that the shipped code reproduces the manuscript-facing results from the
+frozen inputs and generated outputs.
 
 ## Public Delivery Status
 
