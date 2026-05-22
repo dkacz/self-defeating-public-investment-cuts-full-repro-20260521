@@ -1,0 +1,29 @@
+| Path                          | Horizon   | Observations   | Countries   | Years     |
+|:------------------------------|:----------|:---------------|:------------|:----------|
+| EU27 panel benchmark          | 0         | 557            | 27          | 2004-2024 |
+| EU27 panel benchmark          | 1         | 531            | 27          | 2004-2023 |
+| EU27 panel benchmark          | 2         | 506            | 27          | 2004-2022 |
+| EU27 panel benchmark          | 3         | 481            | 27          | 2004-2021 |
+| EU27 panel benchmark          | 4         | 456            | 27          | 2004-2020 |
+| EU27 panel benchmark          | 5         | 431            | 27          | 2004-2019 |
+| EU27 panel benchmark          | 6         | 405            | 27          | 2004-2018 |
+| EU27 panel benchmark          | 7         | 378            | 27          | 2004-2017 |
+| EU27 panel benchmark          | 8         | 351            | 27          | 2004-2016 |
+| Investment import content     | 0         | 531            | 27          | 2004-2023 |
+| Investment import content     | 1         | 531            | 27          | 2004-2023 |
+| Investment import content     | 2         | 506            | 27          | 2004-2022 |
+| Investment import content     | 3         | 481            | 27          | 2004-2021 |
+| Investment import content     | 4         | 456            | 27          | 2004-2020 |
+| Investment import content     | 5         | 431            | 27          | 2004-2019 |
+| Investment import content     | 6         | 405            | 27          | 2004-2018 |
+| Investment import content     | 7         | 378            | 27          | 2004-2017 |
+| Investment import content     | 8         | 351            | 27          | 2004-2016 |
+| Household balance-sheet fragility | 0         | 531            | 27          | 2004-2023 |
+| Household balance-sheet fragility | 1         | 531            | 27          | 2004-2023 |
+| Household balance-sheet fragility | 2         | 506            | 27          | 2004-2022 |
+| Household balance-sheet fragility | 3         | 481            | 27          | 2004-2021 |
+| Household balance-sheet fragility | 4         | 456            | 27          | 2004-2020 |
+| Household balance-sheet fragility | 5         | 431            | 27          | 2004-2019 |
+| Household balance-sheet fragility | 6         | 405            | 27          | 2004-2018 |
+| Household balance-sheet fragility | 7         | 378            | 27          | 2004-2017 |
+| Household balance-sheet fragility | 8         | 351            | 27          | 2004-2016 |

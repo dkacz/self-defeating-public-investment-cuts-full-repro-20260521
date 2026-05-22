@@ -80,45 +80,44 @@ Local quality-assurance results are recorded in
 `qa/public_repro_qa_20260521.csv` and
 `results/notebook_check_summary.csv`.
 
-## GPT Pro R4 status, R5 repair, and strict R687 notebook addendum
+## Audit Visibility And Public Package Status
 
-GPT Pro R4 returned `REVISE`, score `9/10`. Arithmetic, data flow,
-recompute-first notebook structure, benchmark-file validation, and the absence
-of inline hardcoded expected values passed. One mandatory package-stability
-fix remains: `code/sync_jupyterlite_files.py` must set the MIME type for `.log`
-files explicitly to `text/plain`, so JupyterLite API metadata does not depend on
-the host operating system's MIME registry.
+The package is designed as a recompute-first replication of the manuscript
+setting. Local QA passes from the package root and from a freshly extracted copy
+of `docs/downloads/full_repro_package_20260521.zip`. JupyterLite metadata maps
+notebook step logs to `text/plain`, so browser metadata does not depend on the
+host operating system's MIME registry.
 
-The R5 local repair implements that explicit `.log` mapping and reruns the
-public runner. Local QA now passes from the package root and from a freshly
-extracted copy of `docs/downloads/full_repro_package_20260521.zip`. The
-JupyterLite API metadata reports both notebook step logs as `text/plain`, and a
-double full-run hash check is stable.
-
-Paper-truth impact: none. The R4/R5 issue concerns public-package determinism,
-not accepted estimates, retained evaluations, the EU27 benchmark, debt paths,
-equal-weight results, model hierarchy, or the operator's replacement decision.
-
-GPT Pro R5 later returned `PASS`, score `10/10`, with no mandatory fixes for
-the scoped public-reproducibility package gate.
-
-On 2026-05-22, the stricter annotation/reproducibility closure protocol
-required a more granular public notebook. The notebook was updated so the
-retained Polish output/spending paths and the Polish debt-accounting paths are
-computed through visible notebook cells rather than by calling the larger public
-runner wrapper. The canonical CSV outputs remain schema-compatible with the
-frozen validation targets, and the full public runner again returns:
+The notebook exposes the retained Polish output/spending paths and the Polish
+debt-accounting paths through visible audit cells. It estimates retained
+response paths, verifies cumulative K arithmetic, estimates direct debt kernels,
+builds the three-year programme paths, reproduces the baseline, simulates debt
+paths and writes the canonical output files. The canonical CSV outputs remain
+schema-compatible with the frozen validation targets, and the full public runner
+returns:
 
 ```text
 public reproducibility PASS
 ```
 
-Current R687 QA:
+Current QA:
 
 - `qa/full_estimator_repro_validation.csv`: 16/16 PASS.
 - `results/notebook_check_summary.csv`: 19/19 PASS.
 - `qa/download_archives_qa_20260521.csv`: 8/8 PASS.
 - `qa/jupyterlite_files_sync_qa_20260521.csv`: 6/6 PASS.
 
-Paper-truth impact remains none. This R687 addendum improves audit visibility
-inside the notebook; it is not final closure of the strict annotation round.
+This package does not change accepted estimates, retained evaluations, the EU27
+benchmark, debt paths, equal-weight results or model hierarchy. It improves
+audit visibility for the public reproduction path.
+
+## Public URL Freshness
+
+The public GitHub Pages URL can be checked directly against the notebook file.
+The current direct public notebook file fetched with `Cache-Control: no-cache`
+matches the local notebook SHA-256
+`4b17e280aa3e1e27952eb4228626fc5946afa9d8b162817e8e1177695edfbb76`.
+
+The public package also includes the manuscript source bundle under
+`manuscript/`, including the QMD file, the table and figure include targets,
+and the PDF formatting header used by the manuscript source.

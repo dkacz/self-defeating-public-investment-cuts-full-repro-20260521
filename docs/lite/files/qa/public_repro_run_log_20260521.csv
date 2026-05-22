@@ -7,4 +7,4 @@ build_public_notebook.py,PASS,0,wrote notebooks/self_defeating_public_investment
 audit_hardcoded_validation_targets.py,PASS,0,
 execute_public_notebook.py,PASS,0,PASS public notebook execution: ./qa/notebook_execution_log.txt
 build_public_downloads.py,PASS,0,Download archive rebuilt. The external docs/downloads/*.sha256 file is the authoritative archive checksum; archive-internal QA ledgers do not certify the containing ZIP hash.
-sync_jupyterlite_files.py,PASS,0,jupyterlite files sync PASS files=164
+sync_jupyterlite_files.py,PASS,0,jupyterlite files sync PASS files=226

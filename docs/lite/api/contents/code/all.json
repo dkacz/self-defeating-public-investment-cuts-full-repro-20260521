@@ -52,7 +52,7 @@
       "mimetype": "text/x-python",
       "name": "build_public_downloads.py",
       "path": "code/build_public_downloads.py",
-      "size": 14082,
+      "size": 14100,
       "type": "file",
       "writable": true
     },
@@ -136,7 +136,7 @@
       "mimetype": "text/x-python",
       "name": "run_public_repro.py",
       "path": "code/run_public_repro.py",
-      "size": 12247,
+      "size": 14390,
       "type": "file",
       "writable": true
     },
@@ -150,7 +150,7 @@
       "mimetype": "text/x-python",
       "name": "sync_jupyterlite_files.py",
       "path": "code/sync_jupyterlite_files.py",
-      "size": 16248,
+      "size": 16266,
       "type": "file",
       "writable": true
     }

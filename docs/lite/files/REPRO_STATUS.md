@@ -68,36 +68,18 @@ The package now writes compact and machine-readable regression-output tables:
 
 These tables report the visible regression output needed to address the annotation that the paper lacked estimation results.
 
-## External Review Status
+## Notebook Visibility
 
-GPT Pro R4 returned `REVISE`, score `9/10`. Pro confirmed that the package is
-recompute-first and accepted the arithmetic and data-flow evidence, but found
-one deterministic-packaging defect: JupyterLite API metadata for `.log` files
-could change across environments unless `.log` was explicitly mapped to
-`text/plain` in `code/sync_jupyterlite_files.py`.
+The current notebook expands the retained Polish output/spending response block
+and the Polish debt-accounting block into visible audit cells. It estimates
+retained response paths by evaluation and horizon, verifies cumulative K
+arithmetic from incremental estimates, estimates direct debt kernels, builds the
+three-year programme paths, reproduces the baseline, simulates debt paths, and
+writes the canonical output files.
 
-The MIME mapping was implemented and targeted GPT Pro R5 returned `PASS`, score
-`10/10`, with no mandatory fixes. The full public runner passes from the
-package root and from a freshly extracted public ZIP. JupyterLite API metadata
-reports the notebook step logs as `text/plain`, and the full runner is
-hash-stable across repeated runs.
-
-## Strict R687 Notebook Visibility Addendum
-
-The reopened strict annotation/reproducibility protocol required more
-notebook-visible computation. The current notebook now expands the retained
-Polish output/spending response block and the Polish debt-accounting block into
-visible audit cells: it estimates retained response paths by evaluation and
-horizon, verifies cumulative K arithmetic from incremental estimates, estimates
-direct debt kernels, builds the three-year program paths, reproduces the
-baseline, simulates debt paths, and writes the canonical output files.
-
-The R687 public run returned `public reproducibility PASS`; frozen validation
-still passes 16/16, and reader-facing download/JupyterLite label scans pass.
-This addendum does not change accepted estimates, retained evaluations or model
-hierarchy. It reduces the notebook-transparency blocker, but the strict closure
-round still requires final ledgers, p-value/uncertainty source-to-claim
-evidence, annotation accounting and Pro strict review.
+The public run returns `public reproducibility PASS`; frozen validation passes
+16/16, and reader-facing download/JupyterLite label scans pass. This status does
+not change accepted estimates, retained evaluations or model hierarchy.
 
 ## Public Delivery Status
 
@@ -112,3 +94,13 @@ GitHub Pages serves the repository
 `main:/docs`. Public URL checks returned HTTP 200 for the landing page and the
 browser-executable notebook. Browser QA passed in a fresh context and in a
 persistent profile after preloading the older 2026-05-14 notebook URL.
+
+## Public URL Freshness
+
+The direct GitHub Pages notebook file fetched with `Cache-Control: no-cache`
+matches the local notebook SHA-256
+`4b17e280aa3e1e27952eb4228626fc5946afa9d8b162817e8e1177695edfbb76`.
+
+The package also ships the manuscript source bundle under `manuscript/`,
+including the QMD file, table include targets, figure include targets and PDF
+formatting header.

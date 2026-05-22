@@ -33,6 +33,7 @@ FULL_INCLUDE_PATHS = [
     "docs/index.html",
     "docs/notebook_executed_preview.md",
     "figures",
+    "manuscript",
     "notebooks",
     "qa",
     "references",

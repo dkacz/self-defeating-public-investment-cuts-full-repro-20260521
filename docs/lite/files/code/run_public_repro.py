@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import hashlib
 import os
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -158,6 +159,58 @@ def manifest_validation_rows() -> list[dict[str, str]]:
     ]
 
 
+def manuscript_source_bundle_rows() -> list[dict[str, str]]:
+    qmd = ROOT / "manuscript/manuscript_imrad.qmd"
+    if not qmd.exists():
+        return [
+            {
+                "check": "manuscript_source_bundle_present",
+                "status": "FAIL",
+                "detail": "missing manuscript/manuscript_imrad.qmd",
+            }
+        ]
+    text = qmd.read_text(encoding="utf-8")
+    include_targets = re.findall(r"\{\{<\s*include\s+([^ >]+)\s*>}}", text)
+    figure_targets = [
+        target
+        for target in re.findall(r"!\[[^\]]*\]\(([^)]+)\)", text)
+        if not re.match(r"^[a-z]+://", target)
+    ]
+    header_targets = re.findall(r"include-in-header:\s*([^\s]+)", text)
+
+    def missing(paths: list[str]) -> list[str]:
+        return [path for path in paths if not (qmd.parent / path).exists()]
+
+    include_missing = missing(include_targets)
+    figure_missing = missing(figure_targets)
+    header_missing = missing(header_targets)
+    return [
+        {
+            "check": "manuscript_source_bundle_present",
+            "status": "PASS",
+            "detail": "manuscript/manuscript_imrad.qmd",
+        },
+        {
+            "check": "manuscript_qmd_include_targets_present",
+            "status": "PASS" if not include_missing else "FAIL",
+            "detail": f"targets={len(include_targets)} missing={len(include_missing)}"
+            + ("" if not include_missing else f" first={include_missing[0]}"),
+        },
+        {
+            "check": "manuscript_figure_targets_present",
+            "status": "PASS" if not figure_missing else "FAIL",
+            "detail": f"targets={len(figure_targets)} missing={len(figure_missing)}"
+            + ("" if not figure_missing else f" first={figure_missing[0]}"),
+        },
+        {
+            "check": "manuscript_pdf_header_target_present",
+            "status": "PASS" if not header_missing else "FAIL",
+            "detail": f"targets={len(header_targets)} missing={len(header_missing)}"
+            + ("" if not header_missing else f" first={header_missing[0]}"),
+        },
+    ]
+
+
 def run_script(name: str, args: list[str]) -> dict[str, str]:
     env = os.environ.copy()
     env["PYTHONDONTWRITEBYTECODE"] = "1"
@@ -242,6 +295,7 @@ def build_qa_rows() -> list[dict[str, str]]:
         }
     )
     qa_rows.extend(manifest_validation_rows())
+    qa_rows.extend(manuscript_source_bundle_rows())
     return qa_rows
 
 

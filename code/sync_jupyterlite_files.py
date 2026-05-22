@@ -28,6 +28,7 @@ INCLUDE_PATHS = [
     "code",
     "data",
     "figures",
+    "manuscript",
     "notebooks",
     "qa",
     "references",

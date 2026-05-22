@@ -15,3 +15,7 @@ manifest_valid:results/adopted_specification_summary_manifest_20260514.csv,PASS,
 manifest_valid:results/notebook_manifest_20260521.csv,PASS,rows=8 bad=0
 manifest_valid:results/recomputed/full_estimator_manifest.csv,PASS,rows=118 bad=0
 manifest_valid:data/frozen/adopted_run_outputs/feature_screen/source_manifest.csv,PASS,rows=30 bad=0
+manuscript_source_bundle_present,PASS,manuscript/manuscript_imrad.qmd
+manuscript_qmd_include_targets_present,PASS,targets=8 missing=0
+manuscript_figure_targets_present,PASS,targets=4 missing=0
+manuscript_pdf_header_target_present,PASS,targets=1 missing=0

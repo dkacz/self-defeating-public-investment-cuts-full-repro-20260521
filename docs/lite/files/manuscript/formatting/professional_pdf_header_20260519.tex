@@ -1,0 +1,95 @@
+\usepackage[a4paper,top=24mm,bottom=28mm,left=24mm,right=24mm,headheight=15pt,includeheadfoot]{geometry}
+\usepackage{mathpazo}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{needspace}
+\usepackage{etoolbox}
+\usepackage{float}
+
+\definecolor{WPBlue}{HTML}{253B59}
+\definecolor{WPRule}{HTML}{7D93AD}
+\definecolor{WPGray}{HTML}{4B5563}
+\definecolor{WPLight}{HTML}{EEF3F8}
+
+\linespread{1.04}
+\setlength{\parskip}{0.58em}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{2.5em}
+\setcounter{secnumdepth}{0}
+
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{flushleft}
+    \vspace*{-8mm}
+    {\Huge\sffamily\bfseries\color{WPBlue}\@title\par}
+    \vspace{0.55em}
+    {\large\sffamily\color{WPGray}\@author\par}
+    \vspace{0.9em}
+    {\color{WPRule}\rule{\linewidth}{1.2pt}}
+    \vspace{1.0em}
+  \end{flushleft}
+}
+\makeatother
+
+\setkomafont{section}{\Large\bfseries\sffamily\color{WPBlue}}
+\setkomafont{subsection}{\large\bfseries\sffamily\color{WPBlue}}
+\setkomafont{subsubsection}{\normalsize\bfseries\sffamily\color{WPGray}}
+\RedeclareSectionCommand[beforeskip=2.6ex plus .6ex minus .2ex,afterskip=1.0ex]{section}
+\RedeclareSectionCommand[beforeskip=2.0ex plus .5ex minus .2ex,afterskip=.65ex]{subsection}
+\RedeclareSectionCommand[beforeskip=1.6ex plus .4ex minus .2ex,afterskip=.45ex]{subsubsection}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\sffamily\color{WPGray}Self-Defeating Public Investment Cuts}
+\fancyhead[R]{\small\sffamily\color{WPGray}\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{WPRule}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+\captionsetup{
+  font=small,
+  labelfont={bf,color=WPBlue},
+  textfont={color=WPGray},
+  skip=7pt
+}
+
+\newif\ifAppendixWideTables
+\AppendixWideTablesfalse
+
+\AtBeginEnvironment{longtable}{%
+  \footnotesize\sffamily
+  \ifAppendixWideTables
+    \setlength{\tabcolsep}{5.0pt}%
+    \renewcommand{\arraystretch}{1.10}%
+  \else
+    \setlength{\tabcolsep}{3.2pt}%
+    \renewcommand{\arraystretch}{1.08}%
+  \fi
+}
+\AtEndEnvironment{longtable}{\normalsize\rmfamily}
+\renewcommand{\arraystretch}{1.18}
+
+\newcommand{\TableBlock}{\Needspace{18\baselineskip}}
+\newcommand{\CompactTableBlock}{\Needspace{15\baselineskip}}
+\newcommand{\AppendixWideTablesOn}{%
+  \AppendixWideTablestrue
+  \begin{landscape}
+  \footnotesize\sffamily
+  \setlength{\tabcolsep}{5.0pt}
+  \renewcommand{\arraystretch}{1.10}
+}
+\newcommand{\AppendixWideTablesOff}{%
+  \normalsize\rmfamily
+  \end{landscape}
+  \AppendixWideTablesfalse
+}
+
+\let\oldquote\quote
+\let\endoldquote\endquote
+\renewenvironment{quote}{\begin{oldquote}\small\color{WPGray}}{\end{oldquote}}

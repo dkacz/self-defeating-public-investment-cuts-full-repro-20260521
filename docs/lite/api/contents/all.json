@@ -50,6 +50,20 @@
       "hash_algorithm": null,
       "last_modified": "2026-05-21T00:00:00Z",
       "mimetype": null,
+      "name": "manuscript",
+      "path": "manuscript",
+      "size": null,
+      "type": "directory",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-05-21T00:00:00Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-05-21T00:00:00Z",
+      "mimetype": null,
       "name": "notebooks",
       "path": "notebooks",
       "size": null,
@@ -164,7 +178,7 @@
       "mimetype": "text/markdown",
       "name": "REPORT.md",
       "path": "REPORT.md",
-      "size": 4787,
+      "size": 4557,
       "type": "file",
       "writable": true
     },
@@ -178,7 +192,7 @@
       "mimetype": "text/markdown",
       "name": "REPRO_STATUS.md",
       "path": "REPRO_STATUS.md",
-      "size": 5784,
+      "size": 5106,
       "type": "file",
       "writable": true
     },
