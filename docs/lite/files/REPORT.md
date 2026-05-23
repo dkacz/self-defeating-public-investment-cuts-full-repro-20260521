@@ -114,11 +114,18 @@ auditable from the shipped inputs.
 
 ## Public URL Freshness
 
-The public GitHub Pages URL can be checked directly against the notebook file.
-The current direct public notebook file fetched with `Cache-Control: no-cache`
-matches the local notebook SHA-256
-`4b17e280aa3e1e27952eb4228626fc5946afa9d8b162817e8e1177695edfbb76`.
+Public delivery is closed only by a no-cache freshness check against the live
+GitHub Pages objects. The notebook object expected in the live JupyterLite
+payload has SHA-256:
 
-The public package also includes the manuscript source bundle under
-`manuscript/`, including the QMD file, the table and figure include targets,
-and the PDF formatting header used by the manuscript source.
+```text
+4b17e280aa3e1e27952eb4228626fc5946afa9d8b162817e8e1177695edfbb76
+```
+
+The full-archive hash is intentionally recorded only in the external
+live-public freshness report and in the adjacent `.sha256` file, not inside the
+archive-bearing report itself. This avoids a self-referential archive hash.
+
+The package includes the manuscript source bundle under `manuscript/`,
+including the QMD file, the table and figure include targets, and the PDF
+formatting header used by the manuscript source.

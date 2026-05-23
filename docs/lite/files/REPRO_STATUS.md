@@ -84,23 +84,26 @@ frozen inputs and generated outputs.
 
 ## Public Delivery Status
 
-The package is publicly delivered at:
+The public entry point is:
 
 ```text
 https://dkacz.github.io/self-defeating-public-investment-cuts-full-repro-20260521/lite/lab/index.html?path=notebooks/self_defeating_public_investment_cuts_full_repro_20260521.ipynb
 ```
 
-GitHub Pages serves the repository
-`dkacz/self-defeating-public-investment-cuts-full-repro-20260521` from
-`main:/docs`. Public URL checks returned HTTP 200 for the landing page and the
-browser-executable notebook. Browser QA passed in a fresh context and in a
-persistent profile after preloading the older 2026-05-14 notebook URL.
+Public delivery is closed only when a no-cache live-public check confirms that
+GitHub Pages serves the current notebook and downloadable archive hashes.
 
 ## Public URL Freshness
 
-The direct GitHub Pages notebook file fetched with `Cache-Control: no-cache`
-matches the local notebook SHA-256
-`4b17e280aa3e1e27952eb4228626fc5946afa9d8b162817e8e1177695edfbb76`.
+The notebook object expected in the live JupyterLite payload has SHA-256:
+
+```text
+4b17e280aa3e1e27952eb4228626fc5946afa9d8b162817e8e1177695edfbb76
+```
+
+The full-archive hash is intentionally recorded only in the external
+live-public freshness report and in the adjacent `.sha256` file, not inside the
+archive-bearing status file itself. This avoids a self-referential archive hash.
 
 The package also ships the manuscript source bundle under `manuscript/`,
 including the QMD file, table include targets, figure include targets and PDF

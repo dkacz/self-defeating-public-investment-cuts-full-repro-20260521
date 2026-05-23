@@ -1,5 +1,6 @@
 # Public Reproducibility Release QA
 
+> **Historical public-release evidence.** This file records the 2026-05-21 public URL check from the earlier public-repro release. It is retained for provenance only. It is not current strict-packet public freshness evidence, and current strict packets must use the later local package QA or a fresh no-cache public URL verification.
 Date: 2026-05-21
 
 ## Public object
